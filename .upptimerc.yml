@@ -1,0 +1,49 @@
+owner: Tanic-Labs
+repo: termo-status
+
+sites:
+  - name: Termo API
+    url: https://api.termo.ai/health
+    expectedStatusCodes:
+      - 200
+
+  - name: Termo Web
+    url: https://termo.ai
+    expectedStatusCodes:
+      - 200
+      - 301
+
+  - name: Supabase API
+    url: https://idriogxxzalrnlqrwooo.supabase.co/rest/v1/
+    expectedStatusCodes:
+      - 200
+      - 401
+
+  - name: Sprites API
+    url: https://api.sprites.dev/v1
+    expectedStatusCodes:
+      - 200
+      - 401
+
+status-website:
+  cname: status.termo.ai
+  baseUrl: /
+  name: Termo Status
+  theme: dark
+  logoUrl: https://termo.ai/favicon.ico
+
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  uptime: "*/5 * * * *"
+
+i18n:
+  activeIncidents: Active incidents
+  allSystemsOperational: All systems operational
+  incidentReport: "Incident Report for $DATE"
+
+commitMessages:
+  statusChange: "$EMOJI $SITE_NAME is $STATUS ($RESPONSE_CODE in $RESPONSE_TIME ms)"
+  degradedPerformance: "$SITE_NAME has degraded performance ($RESPONSE_TIME ms)"
