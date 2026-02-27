@@ -25,6 +25,13 @@ sites:
       - 200
       - 401
 
+status-website:
+  cname: status.termo.ai
+  baseUrl: /
+  name: Termo Status
+  theme: dark
+  logoUrl: https://termo.ai/favicon.ico
+
 workflowSchedule:
   graphs: "0 0 * * *"
   responseTime: "0 23 * * *"
