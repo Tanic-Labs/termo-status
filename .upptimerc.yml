@@ -20,10 +20,9 @@ sites:
       - 401
 
   - name: Agents
-    url: https://api.sprites.dev/v1
+    url: https://api.termo.ai/health/agents
     expectedStatusCodes:
       - 200
-      - 401
 
 status-website:
   cname: status.termo.ai
