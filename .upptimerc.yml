@@ -2,24 +2,24 @@ owner: Tanic-Labs
 repo: termo-status
 
 sites:
-  - name: Termo API
+  - name: API
     url: https://api.termo.ai/health
     expectedStatusCodes:
       - 200
 
-  - name: Termo Web
+  - name: Web
     url: https://termo.ai
     expectedStatusCodes:
       - 200
       - 301
 
-  - name: Supabase API
+  - name: Database
     url: https://idriogxxzalrnlqrwooo.supabase.co/rest/v1/
     expectedStatusCodes:
       - 200
       - 401
 
-  - name: Sprites API
+  - name: Agents
     url: https://api.sprites.dev/v1
     expectedStatusCodes:
       - 200
