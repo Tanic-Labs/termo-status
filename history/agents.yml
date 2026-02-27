@@ -1,7 +1,7 @@
-url: https://api.sprites.dev/v1
+url: https://api.termo.ai/health/agents
 status: down
-code: 404
-responseTime: 221
-lastUpdated: 2026-02-27T19:19:30.450Z
+code: 500
+responseTime: 262
+lastUpdated: 2026-02-27T23:25:52.482Z
 startTime: 2026-02-27T19:19:30.188Z
 generator: Upptime <https://github.com/upptime/upptime>
