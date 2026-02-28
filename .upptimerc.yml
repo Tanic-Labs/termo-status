@@ -24,12 +24,8 @@ sites:
     expectedStatusCodes:
       - 200
 
-status-website:
-  cname: status.termo.ai
-  baseUrl: /
-  name: Termo Status
-  theme: dark
-  logoUrl: https://termo.ai/favicon.ico
+# Custom status page deployed to gh-pages manually — do not regenerate
+# status-website: disabled
 
 workflowSchedule:
   graphs: "0 0 * * *"
