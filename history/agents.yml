@@ -1,7 +1,7 @@
 url: https://api.termo.ai/health/agents
-status: down
-code: 504
-responseTime: 478
-lastUpdated: 2026-03-19T01:04:12.286Z
+status: up
+code: 200
+responseTime: 383
+lastUpdated: 2026-03-19T06:10:16.713Z
 startTime: 2026-02-27T19:19:30.188Z
 generator: Upptime <https://github.com/upptime/upptime>
