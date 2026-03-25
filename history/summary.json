@@ -24,7 +24,7 @@
     "slug": "web",
     "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -33,7 +33,9 @@
     "timeWeek": 210,
     "timeMonth": 209,
     "timeYear": 209,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-03-25": 0
+    }
   },
   {
     "name": "Database",
@@ -59,14 +61,14 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.termo.ai.ico",
     "slug": "agents",
     "status": "down",
-    "uptime": "82.08%",
-    "uptimeDay": "87.14%",
-    "uptimeWeek": "62.60%",
-    "uptimeMonth": "82.08%",
-    "uptimeYear": "82.08%",
+    "uptime": "82.53%",
+    "uptimeDay": "92.93%",
+    "uptimeWeek": "65.93%",
+    "uptimeMonth": "82.53%",
+    "uptimeYear": "82.53%",
     "time": 464,
-    "timeDay": 495,
-    "timeWeek": 477,
+    "timeDay": 490,
+    "timeWeek": 479,
     "timeMonth": 464,
     "timeYear": 464,
     "dailyMinutesDown": {
