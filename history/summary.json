@@ -13,7 +13,7 @@
     "time": 251,
     "timeDay": 0,
     "timeWeek": 0,
-    "timeMonth": 264,
+    "timeMonth": 258,
     "timeYear": 251,
     "dailyMinutesDown": {}
   },
@@ -31,7 +31,7 @@
     "time": 191,
     "timeDay": 0,
     "timeWeek": 0,
-    "timeMonth": 273,
+    "timeMonth": 278,
     "timeYear": 191,
     "dailyMinutesDown": {
       "2026-03-25": 51
@@ -61,15 +61,15 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.termo.ai.ico",
     "slug": "agents",
     "status": "down",
-    "uptime": "97.23%",
+    "uptime": "97.25%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "97.23%",
+    "uptimeYear": "97.25%",
     "time": 421,
     "timeDay": 0,
     "timeWeek": 0,
-    "timeMonth": 374,
+    "timeMonth": 368,
     "timeYear": 421,
     "dailyMinutesDown": {
       "2026-07-29": 64,
