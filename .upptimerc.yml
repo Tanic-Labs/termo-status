@@ -1,6 +1,9 @@
 owner: Tanic-Labs
 repo: termo-status
 
+# Public endpoint checks do not need contextual repository secrets.
+secrets: []
+
 sites:
   - name: API
     url: https://api.termo.ai/health
